@@ -1168,12 +1168,12 @@ a.c-button:hover{
 .c-nav--primary{
 	padding:0;
 	height:70px;
-	background-color:#00D;
+	background-color:#006;
 	border-bottom:1px solid #EBEBEB;
 	z-index:1000;
 	top:0;
 	position:fixed;
-	position:absolute
+	position:absolute;
 }
 
 @media screen and (min-width:67.8125rem){
@@ -1233,11 +1233,13 @@ a.c-button:hover{
 }
 
 .c-nav--primary__listitem>a{
-	border:none;color:#6D6F7B;margin-left:.75rem
+	border:none;
+	color:#FFF;
+	margin-left:.75rem
 }
 
 .c-nav--primary__listitem>a:hover{
-	color:#3F46AD
+	color:#BBB
 }
 
 .is-clear:not(.is-fixed) .c-nav--primary__listitem>a{
