@@ -38,7 +38,10 @@
 }
 
 .page-home.page-home .bg-home{
-	display:flex;justify-content:center;height:300px
+	display:flex;
+	justify-content:
+	center;
+	height:350px
 }
 
 @media screen and (min-width:64rem){
@@ -61,12 +64,15 @@
 		padding-right:1.5rem
 	}
 	.page-home.page-home .bg-home{
-		height:600px;margin-left:-5rem;margin-right:-5rem
+		height:300px;
+		margin-left:-5rem;
+		margin-right:-5rem
 	}
 }
 
 .page-home.page-home .bg-home img{
-	align-self:center;height:300px
+	align-self:center;
+	height:300px
 }
 
 @media screen and (min-width:64rem){

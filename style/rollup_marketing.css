@@ -1132,16 +1132,16 @@ a.c-button:hover{
 	}
 }
 
-.c-slacklogo{
+.c-logo{
 	display:flex;
 	align-items:center
 }
 
-.c-slacklogo.t-white{
+.c-logo.t-white{
 	fill:#FFF
 }
 
-.c-slacklogo a{
+.c-logo a{
 	line-height:inherit;
 	display:inline-block;
 	font-size:0;
@@ -1149,15 +1149,15 @@ a.c-button:hover{
 	border:none
 }
 
-.c-slacklogo img{
+.c-logo img{
 	vertical-align:top
 }
 
-.c-slacklogo--white{
+.c-logo--white{
 	display:none
 }
 
-.c-slacklogo--color{
+.c-logo--color{
 	display:inline-block
 }
 
@@ -1177,10 +1177,10 @@ a.c-button:hover{
 }
 
 @media screen and (min-width:67.8125rem){
-	.is-clear:not(.is-fixed) .c-slacklogo .c-slacklogo--white{
+	.is-clear:not(.is-fixed) .c-logo .c-logo--white{
 		display:inline-block
 	}
-	.is-clear:not(.is-fixed) .c-slacklogo .c-slacklogo--color{
+	.is-clear:not(.is-fixed) .c-logo .c-logo--color{
 		display:none
 	}
 	.c-nav--primary.is-clear:not(.is-fixed){
