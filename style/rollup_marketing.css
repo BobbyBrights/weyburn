@@ -10,7 +10,8 @@ html{
 	align-items: center;
 	object-position: center;
 	text-align: center;
-	justify-content:center
+	justify-content:center;
+	border: dotted;
 }
 
 .second--why{
@@ -1467,4 +1468,29 @@ a.c-button:hover{
 
 .for-non-english-only:lang(en),.is-hidden{
 	display:none
+}
+
+.data__header{
+	display: inline-block;
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+.d-nav__listitem {
+    float: left;
+}
+
+.d-nav__listitem a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.d-nav__listitem a:hover {
+    text-decoration: underline;sec_bridge__header
 }

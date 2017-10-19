@@ -5,6 +5,7 @@
   		<!-- scripts -->
   		<script>document.documentElement.className = 'js';</script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://d3js.org/d3.v4.min.js"></script>
 
   		<!-- if user has scripts disabled -->
 		<noscript><meta http-equiv="refresh" content="0; URL=/?nojsmode=1" /></noscript>
@@ -85,11 +86,19 @@
 			<section class="sec_bridge page-home">
 				<div class="sec_bridge__content body-container o-two-columns v--inverse">
 					<header class="sec_bridge__header">
-						
+						<ul class="data__header">
+						<li class="d-nav__listitem"><a class="d-nav__listitem_link data_temperature">Temperature</a></li>
+						<li class="d-nav__listitem data_humidity"><a class="d-nav__listitem_link">Humidity</a></li>
+						<li class="d-nav__listitem data_sunlight"><a class="d-nav__listitem_link">Sunlight</a></li>
+						<li class="d-nav__listitem data_nutrition"><a class="d-nav__listitem_link">Nutrition</a></li>
+					</ul>
+					<hr style="color:black" />
+
 					</header>
 
+
 					<div class="sec_bridge__illustration bg-home">
-						
+						<img class="div_img" src='other/black_box.jpg' alt="Live Video" />
 					</div>
 				</div>
 			</section>
